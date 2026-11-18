@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Campus Lost and Found</h2>
+    <p>A little bit of help can bring a lost item home.</p>
+    <a href="index.html">Home</a>
+    <a href="lost-items.html"> Lost Items</a>
+    <a href="found-items.html">Found Items</a>
+    <a href="report.html">Report an Item</a>
+    <h1>Report a lost or found item</h1>
+    <h2>Share the  Details </h2>
+    <p>Complete this form to tell the campus community about an item. Fields marked as required must be filled in before the form can be submitted</p>
+    <head>
+    <title>Lost and Found Report</title>
+</head>
+
+<body>
+
+<form action="mailto:example@email.com" method="post" enctype="text/plain">
+
+    <fieldset>
+        <legend>Your contact information</legend>
+
+        <p>
+            Your name (required):<br>
+            <input type="text" name="name" required>
+        </p>
+
+        <p>
+            Your email address (required):<br>
+            <input type="email" name="email" required>
+        </p>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Item information</legend>
+
+        <p>
+            What are you reporting? (required):<br>
+
+            <select name="report" required>
+                <option value="">Choose one</option>
+                <option value="Lost">Lost</option>
+                <option value="Found">Found</option>
+            </select>
+        </p>
+
+        <p>
+            Item name (required):<br>
+            <input type="text" name="item" required>
+        </p>
+
+        <p>
+            Item category:<br>
+
+            <select name="category">
+                <option value="">Choose a category</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Clothing">Clothing</option>
+                <option value="Books">Books</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Other">Other</option>
+            </select>
+        </p>
+
+        <p>
+            Description (required):<br>
+            <textarea name="description" rows="5" cols="38" required></textarea>
+        </p>
+
+        <p>
+            Location (required):<br>
+            <input type="text" name="location" required>
+        </p>
+
+        <p>
+            Date lost or found:<br>
+            <input type="date" name="date">
+        </p>
+
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Submit report">
+        <input type="reset" value="Clear form">
+    </p>
+
+</form>
+ <h2>Need help?</h2>
+    <p>Email us at <a href="mailto:lostandfound@campus.edu">lostandfound@campus.edu</a> for assistance.</p>
+    <hr>
+    
+   
+     <p> <b>Campus Lost & Found</b> · Helping our campus community reunite with their belongings.</p>
+ <p>Questions? <a href="mailto:lostandfound@campus.edu">Email us</a>.</p>
+ <p><small>Student project demonstration. Sample listings are for demonstration only.</small></p>
+
+
+</body>
+</html>
