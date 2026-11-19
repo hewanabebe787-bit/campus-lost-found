@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Report a Lost or Found Item - Campus Lost and Found</title>
+     <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
+    <header>
     <h2>Campus Lost and Found</h2>
     <p>A little bit of help can bring a lost item home.</p>
-    <a href="index.html">Home</a>
-    <a href="lost-items.html"> Lost Items</a>
-    <a href="found-items.html">Found Items</a>
-    <a href="report.html">Report an Item</a>
+    <nav>
+        <a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="lost-items.html"> Lost Items</a>&nbsp;&nbsp;
+        <a href="found-items.html">Found Items</a>&nbsp;&nbsp;
+        <a href="report.html">Report an Item</a>&nbsp;&nbsp;
+    </nav>
+    </header>
+    <main>
     <h1>Report a lost or found item</h1>
     <h2>Share the  Details </h2>
     <p>Complete this form to tell the campus community about an item. Fields marked as required must be filled in before the form can be submitted</p>
-    <head>
-    <title>Lost and Found Report</title>
-</head>
+    
 
-<body>
-
-<form action="mailto:example@email.com" method="post" enctype="text/plain">
+<form action="https://formsubmit.co/hewanabebe787@gmail.com" method="POST">
 
     <fieldset>
         <legend>Your contact information</legend>
 
         <p>
-            Your name (required):<br>
-            <input type="text" name="name" required>
+           <label for="name">Your name (required):</label><br>
+<input type="text" id="name" name="name" required>
         </p>
 
         <p>
-            Your email address (required):<br>
-            <input type="email" name="email" required>
+            <label for="email">Your email address (required):</label><br>
+            <input type="email" id="email" name="email" required>
         </p>
 
     </fieldset>
@@ -42,9 +44,8 @@
         <legend>Item information</legend>
 
         <p>
-            What are you reporting? (required):<br>
-
-            <select name="report" required>
+            <label for="report">what are you reporting? (required):</label><br>
+            <select name="report" id="report" required>
                 <option value="">Choose one</option>
                 <option value="Lost">Lost</option>
                 <option value="Found">Found</option>
@@ -52,14 +53,14 @@
         </p>
 
         <p>
-            Item name (required):<br>
-            <input type="text" name="item" required>
+           <label for="item">Item name (required):</label><br>
+            <input type="text" id="item" name="item" required>
         </p>
 
         <p>
-            Item category:<br>
-
-            <select name="category">
+            
+           <label for="category">Item category (required):</label><br>
+            <select name="category" name="category">
                 <option value="">Choose a category</option>
                 <option value="Electronics">Electronics</option>
                 <option value="Clothing">Clothing</option>
@@ -70,18 +71,18 @@
         </p>
 
         <p>
-            Description (required):<br>
-            <textarea name="description" rows="5" cols="38" required></textarea>
+            <label for="description">Item description (required):</label><br>
+            <textarea id="description" name="description" rows="5" cols="38" required></textarea>
         </p>
 
         <p>
-            Location (required):<br>
-            <input type="text" name="location" required>
+            <label for="location">Location (required):</label><br>
+            <input type="text" id="location" name="location" required>
         </p>
 
         <p>
-            Date lost or found:<br>
-            <input type="date" name="date">
+            <label for="date">Date lost or found (required):</label><br>
+            <input type="date" id="date" name="date" required>
         </p>
 
     </fieldset>
@@ -93,14 +94,17 @@
 
 </form>
  <h2>Need help?</h2>
-    <p>Email us at <a href="mailto:lostandfound@campus.edu">lostandfound@campus.edu</a> for assistance.</p>
+    <p>Email us at <a href="mailto:lostandfound@campus.edu">lost and found</a> for assistance.</p>
+    </main>
+    <footer>
     <hr>
     
-   
-     <p> <b>Campus Lost & Found</b> · Helping our campus community reunite with their belongings.</p>
+      
+     <p> <b>Campus Lost &amp; Found</b> · Helping our campus community reunite with their belongings.</p>
  <p>Questions? <a href="mailto:lostandfound@campus.edu">Email us</a>.</p>
+ <p>&copy; 2026 Campus Lost &amp; Found. All rights reserved.</p>
  <p><small>Student project demonstration. Sample listings are for demonstration only.</small></p>
 
-
+</footer>
 </body>
 </html>
